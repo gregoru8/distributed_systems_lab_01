@@ -36,7 +36,8 @@ RPC).
 • Какие сервисы доступны (DocumentUploader).  
 • Какие методы можно вызвать у каждого сервиса (Client streaming RPC).  
 • Какие данные (сообщения) эти методы принимают (CFileChunk) и возвращают (UploadStatus).  
-<img width="827" height="704" alt="image" src="https://github.com/user-attachments/assets/5043ca8d-35f8-498e-a0e6-96289c3991aa" />
+<img width="1026" height="571" alt="image" src="https://github.com/user-attachments/assets/49ea521c-8f0e-4674-ab5b-4c99359e3b5a" />
+
 
 ## Технологический стек:
 • Язык определения интерфейсов (IDL): Protocol Buffers (Protobuf)  
