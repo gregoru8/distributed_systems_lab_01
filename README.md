@@ -60,5 +60,14 @@ RPC).
 #### Запустим и активируем виртуальное окружение (venv), установим библиотеки gRPC, выполним команду python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. booking.proto. Она создала файлы document_uploader_pb2.py и document_uploaderg_pb2_grpc.py, которые содержать сгенерированные классы для клиента и сервера
 <img width="1280" height="797" alt="image" src="https://github.com/user-attachments/assets/e3df8268-469c-4b32-aeee-fb2bb65e7d3f" />  
 ### Запуск и проверка:
-
-
+Откроем 2 терминала, на одном запустим серверный файл, на втором клиентский файл.   
+<img width="1280" height="746" alt="image" src="https://github.com/user-attachments/assets/5f2e2749-917d-46b4-aa63-f5e69ce81888" />  
+Клиент загружет текстовый файл, находящийся в витруальном окружении. 
+<img width="942" height="668" alt="image" src="https://github.com/user-attachments/assets/b234854f-f8c8-4e67-ab9d-c9fc2f4d6b37" />  
+Сервер сохраняет его.  
+<img width="1178" height="323" alt="image" src="https://github.com/user-attachments/assets/25d4a299-37e1-4de9-8602-f8c4419b561f" />  
+## Вывод:
+Было реализовано клиент-серверное приложение на языке Python с
+использованием gRPC.  
+Получены практические навыки в генерации кода, реализации серверной
+логики и клиентских вызовов для различных типов RPC.   
